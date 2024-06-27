@@ -1,7 +1,9 @@
 import React from 'react'
 
-import HeroImg from '../../assets/images/contact.svg'
+// Images
+import HeroImg from '../../assets/images/hero-img.svg'
 
+// Icons
 import { IoSearch } from 'react-icons/io5'
 
 const Hero = () => {

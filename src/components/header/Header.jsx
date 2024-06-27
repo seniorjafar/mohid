@@ -33,7 +33,7 @@ const Header = () => {
     const [toggleMenu, setToggleMenu] = useState(false)
 
     let navlinksItem = navlinkData?.map(item => (
-        <Link key={item.id} to={'/'} className='duration-200 hover:text-white font-medium cursor-pointer'>{item.link}</Link>
+        <Link key={item.id} to={'/'} className='duration-200 hover:text-blue-500 font-medium cursor-pointer'>{item.link}</Link>
     ))
     return (
         <header className='z-10 sticky top-0 bg-colorBlack py-[22px]'>
