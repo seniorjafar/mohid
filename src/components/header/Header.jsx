@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 
 // Icons
 import Logo from '../../assets/icons/logo.svg'
-import { FaCartShopping, FaUser } from 'react-icons/fa6'
+import { FaUser } from 'react-icons/fa6'
+import { FaCartShopping } from "react-icons/fa6";
 import { FiMenu, FiSearch } from 'react-icons/fi'
 
 const navlinkData = [
@@ -49,7 +50,6 @@ const Header = () => {
                     <FaUser className='cursor-pointer' />
                     <div className='relative text-white cursor-pointer'>
                         <FaCartShopping />
-                        <span className='absolute -top-2.5 -right-2.5 bg-[#3858D6] rounded-[50%] w-[18px] h-[18px] flex justify-center items-center text-[10px] border-colorBlack border-2'>1</span>
                     </div>
                     <button onClick={() => setToggleMenu(prev => !prev)} className='md:hidden'><FiMenu className='text-[22px] mt-[3px]' /></button>
                 </div>
