@@ -1,6 +1,5 @@
 import React from 'react'
 
-// Images
 import ProductImg1 from '../../assets/images/trendProduct1.svg'
 import ProductImg2 from '../../assets/images/trendProduct2.svg'
 import ProductImg3 from '../../assets/images/trendProduct3.svg'

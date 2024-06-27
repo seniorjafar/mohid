@@ -1,16 +1,13 @@
 import React from 'react'
 
-// Swiper
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-// Images
 import Employer1 from '../../assets/images/employer1.svg'
 import Employer2 from '../../assets/images/employer2.svg'
 
-// Icons
 import Rating from '../../assets/icons/rating.svg'
 
 const employersData = [

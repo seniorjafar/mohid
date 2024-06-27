@@ -1,6 +1,5 @@
 import React from 'react'
 
-// Images
 import Watch from '../../assets/images/contact.svg'
 
 const Contact = () => {

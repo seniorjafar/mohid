@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-// Icons
 import Logo from '../../assets/icons/logo.svg'
 import { FaUser } from 'react-icons/fa6'
 import { FaCartShopping } from "react-icons/fa6";

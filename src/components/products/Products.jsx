@@ -1,16 +1,13 @@
 import React, { useState } from 'react'
 import { useGetProductsQuery } from '../../context/api/productsApi'
 
-// MUI
 import { Pagination, Box, InputLabel, MenuItem, FormControl } from '@mui/material';
 import Select from '@mui/material/Select';
 
-// Icons
 import { FaShoppingCart } from 'react-icons/fa'
 import { FaHeart } from 'react-icons/fa6'
 import Rating from '../../assets/icons/rating.svg'
 
-// Images
 import NoImg from '../../assets/images/noimg.jpg'
 
 const Products = () => {
